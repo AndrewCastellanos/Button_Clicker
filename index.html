@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+<body>
+
+<!--Container-->
+    <div class="container">
+<!--Header-->        
+        <header>
+            <div class="nav">
+                <h1>Dojonary</h1>
+                <input type="text" name="search" 
+                placeholder="Search" >
+                <button onclick="change(this)">Login</button>
+            </div>
+        </header>
+<!--columns-->
+        <div class="cols">
+            <div class="col-topleft">
+                <div class="col-1"> 
+                    <div class="topleft">
+                        <h1>ninja</h1>
+                        <h2>noun</h2>
+                        <h3>plural:ninjas</h3>
+                        <button onclick="alert('This Page says Ninja was liked')">13 likes</button>
+                    </div>  
+                    <div class="topright">
+                        <p>A practioniner skilled in the <u>Japanese</u> art of <u>ninjutsu</u></p>
+                    </div>          
+                </div> 
+                <div class="col-2"> 
+                    <div class="bottomleft">
+                        <h1>ninja</h1>
+                        <h2>noun</h2>
+                        <h3>plural:ninjas</h3>
+                        <button>37 likes</button>
+                    </div>  
+                    <div class="bottomright">
+                        <p>A <u>Programmer</u> who breaks down problrms with <u>zen-</u> like focus</p>
+                    </div>          
+                </div>
+            </div>
+            <div class="col-right"> 
+                <div class="inner">
+                    <div class="button">
+                        <p>Dojonary is defined by YOU</p>
+                    <button onclick="hidebutton(this)">Add definiton</button>
+                    </div>
+                </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

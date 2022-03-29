@@ -1,0 +1,142 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Main Containerr*/
+
+.container {
+    width: 100%;
+    height: 1200px;
+}
+
+/*Header*/
+header{
+    background-color:gray;
+    margin: 0px 80px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav input {
+    width: 20%;
+    height: 25px;
+    font-size: medium;
+}
+
+.nav button {
+    height: 25px;
+    width: 60px;
+    background-color: blue;
+    color: white;
+    box-shadow: 3px 4px black;
+}
+
+/*main column*/
+
+.cols{
+    
+    display: flex;
+    margin: 30px 80px;
+    gap: 20px;
+    
+
+}
+
+/* Main col left*/
+.col-topleft{
+    
+    width: 500px;
+    height: 600px;
+    margin: 30px;
+    
+}
+
+.col-1,
+.col-2{
+    margin: 20px;
+    height: 250px;
+    display: flex;
+    border: 3px solid black;
+
+}
+
+
+
+.topleft,
+.bottomleft{
+    height:200px;
+    text-align: center;
+    margin:20px
+}
+
+.topleft h1,h2,h3,button {
+    margin: 10px;
+}
+
+.topright,
+.bottomright  {
+    
+    height:200px;
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    align-items: center;  
+}
+
+.topright p,
+.bottomright p{
+    margin: 10px;
+    
+}
+
+
+.bottomleft h1,h2,h3,button {
+    margin: 10px;
+}
+
+.bottomleft button,
+.topleft button {
+    background-color: yellow;
+    box-shadow: 3px 3px;
+}
+
+
+
+
+
+
+
+/* main col right*/
+
+.col-right {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: larger;
+    margin: 30px;
+    
+}
+
+.inner {
+    border: 3px solid;
+    margin: 30px;
+    width: 300px;
+    height: 200px;
+}
+
+.inner p {
+    margin: 20px;
+}
+
+.inner button {
+    background-color: green;
+    box-shadow: 2px 2px;
+    height: 25px;
+}
